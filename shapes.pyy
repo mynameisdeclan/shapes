@@ -1,0 +1,21 @@
+import pgzrun
+
+WIDTH = 500
+HEIGHT = 500
+TITLE = "SHAPES>"
+
+r = 0
+g = 0
+b = 0
+color = (r,g,b)
+
+def draw():
+    screen.clear()
+    screen.fill((255,255,255))
+    sqaure = Rect((300,300),(100,100))
+    rectangle= Rect((50,50),(100,150))
+    screen.draw.line((0,0),(400,400),("red"))
+
+    screnn.draw.rect(square,"blue")
+    screen.draw.fillled_rect(rectangle,"cyan")
+pgzrun.go()
