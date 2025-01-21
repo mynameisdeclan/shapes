@@ -19,3 +19,23 @@ def draw():
     screnn.draw.rect(square,"blue")
     screen.draw.fillled_rect(rectangle,"cyan")
 pgzrun.go()
+
+
+import pgzrun
+
+WIDTH = 500
+HEIGHT = 500
+TITLE = "SHAPES"
+
+def draw():
+    screen.clear()
+    screen.fill = (255, 255, 255)
+
+    screen.draw.filled_circle((250, 250), 50, "red")
+
+    screen.draw.filled_rect(Rect((300, 300), (100, 100)), "green")
+
+    screen.draw.line((100,100),(200,200),(255, 0 , 200))
+    screen.draw.line((100,100),(-100,-200),(255, 0 , 200))
+
+pgzrun.go()
